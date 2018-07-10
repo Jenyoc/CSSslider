@@ -1,0 +1,19 @@
+.pic{
+  display: block;
+  width: 0px; height: 100px;
+  position: absolute;
+  transition: 1s;
+}
+.one:focus~.picOne{
+  width:200px;
+}
+
+.two:focus~.picTwo{
+  width:200px;
+}
+.three:focus~.picThree{
+  width:200px;
+}
+.four:focus~.picFour{
+  width:200px;
+}
